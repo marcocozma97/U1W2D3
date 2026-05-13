@@ -7,106 +7,106 @@ REGOLE
 */
 
 const starWarsCharacters = [
-	{
-		name: 'Luke Skywalker',
-		height: '172',
-		mass: '77',
-		hair_color: 'blond',
-		skin_color: 'fair',
-		eye_color: 'blue',
-		birth_year: '19BBY',
-		gender: 'male',
-	},
-	{
-		name: 'C-3PO',
-		height: '167',
-		mass: '75',
-		hair_color: 'n/a',
-		skin_color: 'gold',
-		eye_color: 'yellow',
-		birth_year: '112BBY',
-		gender: 'n/a',
-	},
-	{
-		name: 'R2-D2',
-		height: '96',
-		mass: '32',
-		hair_color: 'n/a',
-		skin_color: 'white, blue',
-		eye_color: 'red',
-		birth_year: '33BBY',
-		gender: 'n/a',
-	},
-	{
-		name: 'Darth Vader',
-		height: '202',
-		mass: '136',
-		hair_color: 'none',
-		skin_color: 'white',
-		eye_color: 'yellow',
-		birth_year: '41.9BBY',
-		gender: 'male',
-	},
-	{
-		name: 'Leia Organa',
-		height: '150',
-		mass: '49',
-		hair_color: 'brown',
-		skin_color: 'light',
-		eye_color: 'brown',
-		birth_year: '19BBY',
-		gender: 'female',
-	},
-	{
-		name: 'Owen Lars',
-		height: '178',
-		mass: '120',
-		hair_color: 'brown, grey',
-		skin_color: 'light',
-		eye_color: 'blue',
-		birth_year: '52BBY',
-		gender: 'male',
-	},
-	{
-		name: 'Beru Lars',
-		height: '165',
-		mass: '75',
-		hair_color: 'brown',
-		skin_color: 'light',
-		eye_color: 'blue',
-		birth_year: '47BBY',
-		gender: 'female',
-	},
-	{
-		name: 'R5-D4',
-		height: '97',
-		mass: '32',
-		hair_color: 'n/a',
-		skin_color: 'white, red',
-		eye_color: 'red',
-		birth_year: 'unknown',
-		gender: 'n/a',
-	},
-	{
-		name: 'Biggs Darklighter',
-		height: '183',
-		mass: '84',
-		hair_color: 'black',
-		skin_color: 'light',
-		eye_color: 'brown',
-		birth_year: '24BBY',
-		gender: 'male',
-	},
-	{
-		name: 'Obi-Wan Kenobi',
-		height: '182',
-		mass: '77',
-		hair_color: 'auburn, white',
-		skin_color: 'fair',
-		eye_color: 'blue-gray',
-		birth_year: '57BBY',
-		gender: 'male',
-	},
+    {
+        name: 'Luke Skywalker',
+        height: '172',
+        mass: '77',
+        hair_color: 'blond',
+        skin_color: 'fair',
+        eye_color: 'blue',
+        birth_year: '19BBY',
+        gender: 'male',
+    },
+    {
+        name: 'C-3PO',
+        height: '167',
+        mass: '75',
+        hair_color: 'n/a',
+        skin_color: 'gold',
+        eye_color: 'yellow',
+        birth_year: '112BBY',
+        gender: 'n/a',
+    },
+    {
+        name: 'R2-D2',
+        height: '96',
+        mass: '32',
+        hair_color: 'n/a',
+        skin_color: 'white, blue',
+        eye_color: 'red',
+        birth_year: '33BBY',
+        gender: 'n/a',
+    },
+    {
+        name: 'Darth Vader',
+        height: '202',
+        mass: '136',
+        hair_color: 'none',
+        skin_color: 'white',
+        eye_color: 'yellow',
+        birth_year: '41.9BBY',
+        gender: 'male',
+    },
+    {
+        name: 'Leia Organa',
+        height: '150',
+        mass: '49',
+        hair_color: 'brown',
+        skin_color: 'light',
+        eye_color: 'brown',
+        birth_year: '19BBY',
+        gender: 'female',
+    },
+    {
+        name: 'Owen Lars',
+        height: '178',
+        mass: '120',
+        hair_color: 'brown, grey',
+        skin_color: 'light',
+        eye_color: 'blue',
+        birth_year: '52BBY',
+        gender: 'male',
+    },
+    {
+        name: 'Beru Lars',
+        height: '165',
+        mass: '75',
+        hair_color: 'brown',
+        skin_color: 'light',
+        eye_color: 'blue',
+        birth_year: '47BBY',
+        gender: 'female',
+    },
+    {
+        name: 'R5-D4',
+        height: '97',
+        mass: '32',
+        hair_color: 'n/a',
+        skin_color: 'white, red',
+        eye_color: 'red',
+        birth_year: 'unknown',
+        gender: 'n/a',
+    },
+    {
+        name: 'Biggs Darklighter',
+        height: '183',
+        mass: '84',
+        hair_color: 'black',
+        skin_color: 'light',
+        eye_color: 'brown',
+        birth_year: '24BBY',
+        gender: 'male',
+    },
+    {
+        name: 'Obi-Wan Kenobi',
+        height: '182',
+        mass: '77',
+        hair_color: 'auburn, white',
+        skin_color: 'fair',
+        eye_color: 'blue-gray',
+        birth_year: '57BBY',
+        gender: 'male',
+    },
 ];
 
 /* ESERCIZIO 1 — Estrai i nomi
@@ -118,7 +118,7 @@ const starWarsCharacters = [
 
 const nomi = [];
 
-for (let i=0; i < starWarsCharacters.length; i++) {
+for (let i = 0; i < starWarsCharacters.length; i++) {
     nomi.push(starWarsCharacters[i].name);
 }
 
@@ -137,11 +137,11 @@ const personaggiFemminili = [];
 for (let i = 0; i < starWarsCharacters.length; i++) {
     if (starWarsCharacters[i].gender === 'female') {
         personaggiFemminili.push({
-           name: starWarsCharacters[i].name,
-           hair_color: starWarsCharacters[i].hair_color,
-           eye_color: starWarsCharacters{i}.eye_color,
+            name: starWarsCharacters[i].name,
+            hair_color: starWarsCharacters[i].hair_color,
+            eye_color: starWarsCharacters{ i }.eye_color,
         });
-    }
+}
 }
 
 console.log(personaggiFemminili);
@@ -153,7 +153,13 @@ console.log(personaggiFemminili);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-
+const perColoreOcchi = {
+    blue = [],
+    yellow = [],
+    brown = [],
+    red = [],
+    'blue-gray': [],
+};
 
 /* ESERCIZIO 4 — Raggruppa per colore degli occhi
    For su starWarsCharacters + switch (character.eye_color).
@@ -162,6 +168,27 @@ console.log(personaggiFemminili);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+for (let i = 0; i < starWarsCharacters.length; i++) {
+    switch(starWarsCharacters[i].eye_color) {
+        case 'blue':
+            perColoreOcchi.blue.push(starWarsCharacters[i]);
+            break;
+        case 'brown':
+            perColoreOcchi.brown.push(starWarsCharacters[i]);
+            break;
+        case 'yellow':
+            perColoreOcchi.yellow.push(starWarsCharacters[i]);
+            break;
+        case 'red':
+            perColoreOcchi.red.push(starWarsCharacters[i]);
+            break;
+            case 'blue-gray':
+            perColoreOcchi['blue-gray'].push(starWarsCharacters[i]);
+            break;
+    }
+}
+console.log(perColoreOcchi);
 
 /* ESERCIZIO 5 — Massa totale dell'equipaggio (while)
    i = 0, massaTotale = 0.
