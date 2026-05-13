@@ -134,9 +134,13 @@ console.log(nomi);
 
 const personaggiFemminili = [];
 
-for (let i = 0; i < starWarsCharacters.length; i++); {
+for (let i = 0; i < starWarsCharacters.length; i++) {
     if (starWarsCharacters[i].gender === 'female') {
-        personaggiFemminili.push(starWarsCharacters[i]);
+        personaggiFemminili.push({
+           name: starWarsCharacters[i].name,
+           hair_color: starWarsCharacters[i].hair_color,
+           eye_color: starWarsCharacters{i}.eye_color,
+        });
     }
 }
 
@@ -148,6 +152,8 @@ console.log(personaggiFemminili);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+
 
 /* ESERCIZIO 4 — Raggruppa per colore degli occhi
    For su starWarsCharacters + switch (character.eye_color).
