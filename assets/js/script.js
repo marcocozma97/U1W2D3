@@ -198,6 +198,15 @@ console.log(perColoreOcchi);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+let i = 0;
+let massaTotale = 0;
+
+while (i < starWarsCharacters.length) {
+    massaTotale += massaTotale + Number(starWarsCharacters[i].mass);
+    i++
+}
+console.log(massaTotale);
+
 /* ESERCIZIO 6 — Classifica il carico
    Su massaTotale, switch (true) o if/else if:
    < 500            → "Carico leggero"
