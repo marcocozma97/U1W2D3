@@ -202,7 +202,7 @@ let i = 0;
 let massaTotale = 0;
 
 while (i < starWarsCharacters.length) {
-    massaTotale += massaTotale + Number(starWarsCharacters[i].mass);
+    massaTotale += Number(starWarsCharacters[i].mass);
     i++
 }
 console.log(massaTotale);
@@ -217,6 +217,8 @@ console.log(massaTotale);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+
 
 /* ESERCIZIO 7 — Robotizza i n/a
    For: per ogni personaggio con gender === "n/a", cambialo in "robot".
