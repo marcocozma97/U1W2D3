@@ -259,6 +259,21 @@ console.table(starWarsCharacters);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+let alto = starWarsCharacters[0];
+let basso = starWarsCharacters[0];
+
+for (let i = 0; i < starWarsCharacters.length; i++) {
+    if (Number(starWarsCharacters[i].height) > Number(alto.height)) {
+        alto = starWarsCharacters[i];
+    }
+    if (Number(starWarsCharacters[i].height) < Number(basso.height)) {
+        basso = starWarsCharacters[i];
+    }
+}
+
+console.log(`Più alto: ${alto.name} : (${alto.height} cm`);
+console.log(`Più basso: ${basso.name} : (${basso.height} cm`);
+
 /* ESERCIZIO 9 — Rimuovi i femminili dai nomi (cicli annidati)
    Sull'array "nomi" dell'esercizio 1: for esterno su nomi, for interno su personaggiFemminili.
    Quando combaciano per nome, rimuovi quel nome da nomi con splice.
