@@ -271,8 +271,8 @@ for (let i = 0; i < starWarsCharacters.length; i++) {
     }
 }
 
-console.log(`Più alto: ${alto.name} : (${alto.height} cm`);
-console.log(`Più basso: ${basso.name} : (${basso.height} cm`);
+console.log(`Più alto: ${alto.name} : ${alto.height} cm`);
+console.log(`Più basso: ${basso.name} : ${basso.height} cm`);
 
 /* ESERCIZIO 9 — Rimuovi i femminili dai nomi (cicli annidati)
    Sull'array "nomi" dell'esercizio 1: for esterno su nomi, for interno su personaggiFemminili.
