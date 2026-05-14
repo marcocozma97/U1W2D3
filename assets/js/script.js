@@ -154,10 +154,10 @@ console.log(personaggiFemminili);
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 const perColoreOcchi = {
-    blue = [],
-    yellow = [],
-    brown = [],
-    red = [],
+    blue =[],
+    yellow =[],
+    brown =[],
+    red =[],
     'blue-gray': [],
 };
 
@@ -170,7 +170,7 @@ const perColoreOcchi = {
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 for (let i = 0; i < starWarsCharacters.length; i++) {
-    switch(starWarsCharacters[i].eye_color) {
+    switch (starWarsCharacters[i].eye_color) {
         case 'blue':
             perColoreOcchi.blue.push(starWarsCharacters[i]);
             break;
@@ -183,7 +183,7 @@ for (let i = 0; i < starWarsCharacters.length; i++) {
         case 'red':
             perColoreOcchi.red.push(starWarsCharacters[i]);
             break;
-            case 'blue-gray':
+        case 'blue-gray':
             perColoreOcchi['blue-gray'].push(starWarsCharacters[i]);
             break;
     }
@@ -218,7 +218,23 @@ console.log(massaTotale);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-
+switch (true) {
+    case massaTotale < 500:
+        console.log('Carico leggero');
+        break;
+    case massaTotale >= 500 && massaTotale < 700:
+        console.log('Carico medio');
+        break;
+    case massaTotale >= 700 && massaTotale < 900:
+        console.log('Attenzione: oltre 700');
+        break;
+    case massaTotale >= 900 && massaTotale < 1000:
+        console.log('Carico critico');
+        break;
+    default:
+        console.log('PERICOLO: sovraccarico');
+        break;
+}
 
 /* ESERCIZIO 7 — Robotizza i n/a
    For: per ogni personaggio con gender === "n/a", cambialo in "robot".
