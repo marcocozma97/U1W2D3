@@ -309,3 +309,7 @@ console.log(`Lunghezza dopo: ${nomi.length}`);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+for (const colore in perColoreOcchi) {
+    console.log(`${colore}: ${perColoreOcchi[colore].length} personaggi`);
+}
